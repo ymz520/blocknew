@@ -13,6 +13,7 @@
 - (IBAction)chuanz:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UILabel *labName;
 @property (weak, nonatomic) IBOutlet UILabel *labName2;
+- (IBAction)btn:(UIButton *)sender;
 
 @end
 

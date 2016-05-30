@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "secondViewController.h"
+#import "collectionViewController.h"
 @interface ViewController ()<secondvclDelegate>
 
 @end
@@ -66,4 +67,9 @@
     [self presentViewController:secondvcl animated:YES completion:nil];
 }
 
+- (IBAction)btn:(UIButton *)sender
+{
+    collectionViewController *con=[[collectionViewController alloc]init];
+    [self presentViewController:con animated:YES completion:nil];
+}
 @end
